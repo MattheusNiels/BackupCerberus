@@ -1,0 +1,192 @@
+# Dit viminfo-bestand is aangemaakt door Vim 7.4.
+# Bewerken is toegestaan, maar doe het met aandacht!
+
+# Waarde van 'encoding' bij het opslaan van dit bestand
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~h
+# Laatste zoekpatroon:
+~MSle0/^$
+
+# Laatste Vervangen zoekpatroon:
+~MSle0~&^$
+
+# Laatst vervangingsstring:
+$: 
+
+# Opdrachtregel Historie (jongste naar oudste):
+:w
+::
+:s
+:q
+:q!
+:g/^\s*;/d
+:s/:/: /
+:wq
+:g/^\s*;/d
+:g/^$/d
+
+# Zoekstring Historie (jongste naar oudste):
+? :
+? ^$
+? ^\s*;
+
+# Expressie Historie (jongste naar oudste):
+
+# Invoerregel Historie (jongste naar oudste):
+
+# Invoerregel Historie (jongste naar oudste):
+
+# Registers:
+"1	LINE	0
+	
+"2	LINE	0
+	
+"3	LINE	0
+	
+"4	LINE	0
+	
+"5	LINE	0
+	
+"6	LINE	0
+	
+"7	LINE	0
+	
+"8	LINE	0
+	
+"9	LINE	0
+	
+""-	CHAR	0
+	i
+
+# File marks:
+'0  64  0  ~/asterisk_correct.ldif
+'1  44  0  ~/asterisk_correct.ldif
+'2  484  9  ~/asterisk_correct.ldif
+'3  203  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+'4  7  19  /etc/asterisk/voicemail.conf
+'5  468  22  ~/asterisk_zonder_whitespaces.ldif
+'6  7  19  /etc/asterisk/voicemail.conf
+
+# Jumplist (newest first):
+-'  64  0  ~/asterisk_correct.ldif
+-'  1  0  ~/asterisk_correct.ldif
+-'  44  16  ~/asterisk_correct.ldif
+-'  484  9  ~/asterisk_correct.ldif
+-'  203  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  1  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  111  19  ~/asterisk_zonder_whitespaces.ldif
+-'  1  0  ~/asterisk_zonder_whitespaces.ldif
+-'  468  22  ~/asterisk_zonder_whitespaces.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  203  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  1  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  111  19  ~/asterisk_zonder_whitespaces.ldif
+-'  1  0  ~/asterisk_zonder_whitespaces.ldif
+-'  468  22  ~/asterisk_zonder_whitespaces.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  483  9  ~/asterisk_correct.ldif
+-'  203  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  1  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  111  19  ~/asterisk_zonder_whitespaces.ldif
+-'  1  0  ~/asterisk_zonder_whitespaces.ldif
+-'  468  22  ~/asterisk_zonder_whitespaces.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  203  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  1  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  111  19  ~/asterisk_zonder_whitespaces.ldif
+-'  1  0  ~/asterisk_zonder_whitespaces.ldif
+-'  468  22  ~/asterisk_zonder_whitespaces.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  203  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  1  0  /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+-'  22  0  /etc/asterisk/voicemail.conf
+-'  1  0  /etc/asterisk/voicemail.conf
+-'  111  19  ~/asterisk_zonder_whitespaces.ldif
+-'  1  0  ~/asterisk_zonder_whitespaces.ldif
+-'  468  22  ~/asterisk_zonder_whitespaces.ldif
+-'  7  19  /etc/asterisk/voicemail.conf
+
+# History of marks within files (newest to oldest):
+
+> ~/asterisk_correct.ldif
+	"	64	0
+	^	44	45
+	.	44	0
+	+	43	0
+	+	44	0
+
+> /usr/src/asterisk-13.7.2/contrib/scripts/asterisk.ldif
+	"	203	0
+
+> ~/asterisk_zonder_whitespaces.ldif
+	"	111	19
+	^	111	20
+	.	111	20
+	+	111	20
+
+> /etc/asterisk/voicemail.conf
+	"	7	19
+	.	7	17
+	+	22	0
+	+	22	0
+	+	7	17

@@ -1,0 +1,1 @@
+cmd_arch/x86/syscalls/../include/generated/asm/syscalls_64.h := /bin/bash '/build/linux-lts-vivid-plKvyb/linux-lts-vivid-3.19.0/arch/x86/syscalls/syscalltbl.sh' /build/linux-lts-vivid-plKvyb/linux-lts-vivid-3.19.0/arch/x86/syscalls/syscall_64.tbl arch/x86/syscalls/../include/generated/asm/syscalls_64.h

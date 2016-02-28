@@ -1,0 +1,1 @@
+cmd_arch/x86/syscalls/../include/generated/asm/unistd_64_x32.h := /bin/bash '/build/linux-lts-vivid-whAhIw/linux-lts-vivid-3.19.0/arch/x86/syscalls/syscallhdr.sh' '/build/linux-lts-vivid-whAhIw/linux-lts-vivid-3.19.0/arch/x86/syscalls/syscall_64.tbl' 'arch/x86/syscalls/../include/generated/asm/unistd_64_x32.h' 'x32' 'x32_' ''

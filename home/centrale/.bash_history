@@ -1388,3 +1388,151 @@ ls
 rm ls/
 rm -r ls/
 ls
+sudo service asterisk reload 
+git config --list
+cd /git/
+ls
+ls -all
+cd /
+ls -all
+cd ~
+ls -all
+cd /etc
+git commit -a
+cd /git/
+ls
+sudo nano README
+git add README
+nano config 
+sudo nano config 
+git add *
+sudo git add *
+sudo nano config 
+git --help
+git add /etc
+sudo
+cd /etc
+git
+man git
+git -C 
+git -C /etc
+sudo apt-get autoremove 
+sudo apt-get autoremove git
+cd /
+sudo rm -r git/
+sudo apt-get install git
+sudo mkdir CerberusGit
+cd /CerberusGit/
+echo "# CerberusGit" >> README.md
+
+echo "# CerberusGit" >> README.md
+sudo nano README.md
+cat README.md 
+sudo git init
+git commit -m "first commit"
+sudo git commit -m "first commit"
+git remote add origin https://github.com/MattheusNiels/CerberusGit.git
+sudo git remote add origin https://github.com/MattheusNiels/CerberusGit.git
+git push -u origin master
+sudo git --global user.name "MattheusNiels"
+git config --global user.name "MattheusNiels"
+git config --global  user.name "MattheusNiels" --replace-all 
+git config --global  user.email "niels.mattheus@student.ucll.be" --replace-all 
+git push -u origin master
+git remote add origin https://github.com/MattheusNiels/CerberusGit.git
+git push -u origin master
+sudo git push -u origin master
+sudo git push -u origin
+sudo git push -u origin master
+git add *
+sudo git add *
+sudo commit -m "first commit"
+sudo git commit -m "first commit"
+sudo git push -u origin master
+cd /etc
+git add *
+claer
+clear
+htop
+cd /etc
+git add .
+cd git init
+git init 
+sudo git init 
+ls -al
+git add *
+sudo git add *
+commit -m "first commit of etc"
+git commit -m "first commit of etc"
+sudo git commit -m "first commit of etc"
+git push origin master
+ls -all
+cd /
+ls
+cd git
+CeberusGit
+ls
+cd CeberusGit
+ls
+cd CerberusGit/
+ls
+git --git-dir=/etc/.git/ --work-tree=/etc status
+sudo git --git-dir=/etc/.git/ --work-tree=/etc status
+git add *
+sudo git add *
+sudo git commit -m "test commit met /etc"
+cd /etc/
+sudo git add *
+sudo git commit -m "test commit met /etc"
+git push origin master
+sudo git push origin master
+cd /
+cd CerberusGit/
+ls
+git --git-dir=/etc/.git/ --work-tree=/etc pull
+git --git-dir=/etc/.git/ --work-tree=/etc checkout
+sudo git --git-dir=/etc/.git/ --work-tree=/etc checkout
+sudo git add *
+sudo git commit -m "test commit met /etc"
+sudo git --git-dir=/etc/.git/ --work-tree=/etc fetch
+sudo git --git-dir=/etc/.git/ --work-tree=/etc branch
+sudo git add *
+sudo
+sudo apt-get auto-remove git
+sudo apt-get auto remove git
+sudo apt-get autoremove git
+cd /
+rm  -r CerberusGit/
+rm  -r CerberusGit
+sudo rm  -r CerberusGit
+cd /etc/
+rm -r .git/
+sudo rm -r .git/
+sudo apt-get install git
+git /
+cd ..
+sudo -s
+git config --global user.name "MattheusNiels"
+git config --global user.name "MattheusNiels" --replace-all 
+git config --list 
+git config --unset-all 
+
+git config --global -e
+
+git init
+git remote add origin https://github.com/MattheusNiels/GitCerberus.git
+git add *
+ls
+git add home/
+git add etc/
+git add usr/
+git add commit -m "Initial commit"
+git commit -m "Initial commit"
+git push -u origin master
+
+git init
+git remote add origin https://github.com/MattheusNiels/BackupCerberus.git
+git add home/
+git add etc/
+git commit -m "Intial commit van Cerberus"
+git push -u origin master

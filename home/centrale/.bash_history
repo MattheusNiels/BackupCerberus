@@ -1536,3 +1536,49 @@ git add home/
 git add etc/
 git commit -m "Intial commit van Cerberus"
 git push -u origin master
+nano backup_script.py
+sudo nano backup_script.py
+sudo python backup_script.py
+sudo nano backup_script.py
+sudo python backup_script.py
+sudo nano backup_script.py
+sudo python backup_script.py
+sudo nano backup_script.py
+sudo python backup_script.py
+cd /
+git remote set-url origin git@github.com:MattheusNiels/BackupCerberus.git
+sudo git remote set-url origin git@github.com:MattheusNiels/BackupCerberus.git
+cd ~
+sudo python backup_script.py
+sudo nano backup_script.py
+sudo python backup_script.py
+sudo nano backup_script.py
+sudo python backup_script.py
+ls -al
+cd .ssh
+ls
+ssh-keygen -t rsa -b 4096 "niels.mattheus@student.ucll.be"
+sudo ssh-keygen -t rsa -b 4096 "niels.mattheus@student.ucll.be"
+sudo ssh-keygen -t rsa -b 4096 -C "niels.mattheus@student.ucll.be"
+ls
+cd /
+ls
+cd root
+sudo root/
+ls
+cd root/
+sudo cd root/
+sudo -s
+cd root/
+ls
+ls -all
+cd .ssh/
+ls
+cat id_rsa.pub 
+cd ~
+ls
+sudo python backup_script.py
+nano backup_script.py
+sudo python backup_script.py
+nano backup_script.py
+sudo python backup_script.py

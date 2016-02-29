@@ -1582,3 +1582,82 @@ nano backup_script.py
 sudo python backup_script.py
 nano backup_script.py
 sudo python backup_script.py
+sudo apt-get install cron
+crontab -e 
+sudo crontab -e 
+sudo -s
+crontab -e 
+service crond stop 
+service cron stop 
+service cron start
+sudo python backup_script.py
+nano backup_script.py
+sudo python backup_script.py
+nano backup_script.py
+sudo python backup_script.py
+nano backup_script.py
+sudo python backup_script.py
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+cd /etc/asterisk/
+ls
+nano res_ldap.conf
+sudo nano res_ldap.conf
+nano sip.conf
+sudo nano sip.conf
+sudo nano extensions.conf
+tar -xzf app_ldap-release.tgz
+cd /usr/src/
+sudo wget http://www.mezzo.net/asterisk/app_ldap-2.0rc1.tgz
+tar -xzf app_ldap-2.0rc1.tgz
+sudo tar -xzf app_ldap-2.0rc1.tgz
+ls
+cd app_ldap-2.0rc1/
+sudo make install
+cd
+cd /usr/src/app_ldap-2.0rc1/
+ls
+sudo make
+ls
+cd ..
+rm app_ldap-2.0rc1
+rm -r app_ldap-2.0rc1
+sudo rm -r app_ldap-2.0rc1
+sudo rm -r app_ldap-2.0rc1.tgz 
+sudo wget http://www.mezzo.net/asterisk/app_ldap-1.0rc6.tgz
+sudo rm -r app_ldap-1.0rc6.tgz
+ls
+sudo wget http://www.mezzo.net/asterisk/app_ldap-1.0rc6.tgz
+ls
+sudo rm -r app_ldap-1.0rc6.tgz
+ls
+sudo wget http://www.mezzo.net/asterisk/app_ldap-1.0rc6.tgz
+sudo tar -xzf app_ldap-1.0rc6.tgz
+ls
+cd app_ldap-1.0rc6/
+sudo make install
+cd /etc/asterisk/
+nano extensions.conf
+sudo nano extensions.conf
+sudo nano extconfig.conf
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo nano res_ldap.conf
+sudo nano sip.conf
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+
+sudo nano users.conf 
+sudo nano res_ldap.conf
+
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf

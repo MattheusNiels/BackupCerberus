@@ -199,8 +199,8 @@ additionalFilter=(objectClass=AstAccount)
 
 [sip]
 name= uidNumber
-group= astAccountCallGroup
-nat= astAccountNAT
+group= AstAccountCallGroup
+nat= AstAccountNAT
 mailbox= AstAccountMailbox
 secret= userPassword
 callerid= AstAccountCallerID

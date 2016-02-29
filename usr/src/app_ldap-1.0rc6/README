@@ -1,0 +1,79 @@
+LDAPget application module for asterisk
+(c)2004,2005 Sven Slezak <sunny@mezzo.net>
+
+LDAPget is an asterisk application which can lookup data 
+in an LDAP directory (e.g. OpenLDAP or ActiveDirectory).
+LDAPget does not require you to use a specific LDAP schema.
+If the requested data is found in the directory it is assigned 
+to a given variable an the priority is increased by 101.
+
+The syntax for LDAPget in extensions.conf is as follows:
+
+LDAPget(VARIABLE=config-file-section[/lookup-key,lookup-key2,...])
+
+If you would like to lookup the caller-id's name you could 
+configure your extensions.conf like this:
+
+exten => 1234,1,LDAPget(CALLERIDNAME=cidname)
+exten => 1234,2,Dial(Zap/11/${EXTEN},15)
+
+Now you have to configure the corresponding section in your 
+ldap.conf file. (an example file is included in this package)
+Because we called the section 'cidname' we have to add a section
+'cidname' to our ldap.conf file.
+
+[cidname]
+host = ldap.mydomain.com
+user = cn=root,ou=People,o=mydomain.com
+version = 3
+pass = secret
+base = ou=Addressbook,o=mydomain.com
+convert = UTF-8,ISO-8859-1
+
+LDAPget will connect to ldap.mydomain.com on port 389 
+(which you can change with 'port = <port>') and bind as 
+user 'cn=root,ou=People,o=mydomain.com' with password 'secret'.
+(if you ommit user and pass LDAPget will bind anonymously to the LDAP server.)
+
+After successful bind it executes an LDAP search with a subdirectory scope 
+from base 'ou=Addressbook,o=mydomain.com' with the default filter 
+'(&(objectClass=person)(telephoneNumber=${CALLERIDNUM}))'
+You can change the filter in the ldap.conf section with 'filter = <ldap filter>' 
+where you can use any Asterisk dialplan variable in the form ${VARIABLE} or
+one or more %s's which will be replaced with the lookup-key's used as a parameer to LDAPget.
+
+For example if you want to lookup mobile telefon numbers as well you can change 
+the filter parameter in ldap.conf like this:
+
+[cidname]
+host = ldap.mydomain.com
+user = cn=root,ou=People,o=mydomain.com
+pass = secret
+base = ou=Addressbook,o=mydomain.com
+filter = (&(objectClass=person)(|(telephoneNumber=${CALLERIDNUM})(mobile=${CALLERIDNUM})))
+convert = UTF-8,ISO-8859-1
+
+When an object is found LDAPget sets the given variable 'CIDNAME' to the text found 
+in the commonName attribute. (you can change the attribute to use with 
+'attribute = <ldap attribute>').
+
+And at last If the charset which is used by your directory server is not supported by 
+your handset (like mine) you can have LDAPget convert the text into the required charset.
+
+
+HOW TO COMPILE?
+
+You will need the openldap client libraries and header files (included in openldap-devel)
+and the iconv library and header file (included in glibc-headers).
+And of course the asterisk pbx compiled and installed.
+
+Unpack the package:
+tar -xzf app_ldap-<release>.tgz
+
+in the app_ldap directory run:
+make install
+
+Restart asterisk or load the application with: 
+load app_ldap.so
+
+you're done. 'show application LDAPget' should print the description.

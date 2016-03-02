@@ -5,5 +5,5 @@ import os
    Copyright 2016 Niels Mattheus"""
 
 date=os.popen('date -d now').read()
-os.system("cd / && sudo git add /etc && sudo git add /home && sudo git add /root && sudo git add /usr/src && sudo git commit -m 'Dagelijkse backup datum: %s' && sudo git push -u origin master" %date)
+os.system("cd / && git add /etc && git add /home && git add /root && git add /usr/src && git commit -m 'Dagelijkse backup datum: %s' && git push -u origin master" %date)
 

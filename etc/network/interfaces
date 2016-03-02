@@ -11,6 +11,5 @@ iface eth1 inet static
 	address 193.191.187.30
 	netmask 255.255.255.128
 	gateway 193.191.187.62
-	dns-nameservers 8.8.8.8
-	dns-nameservers 8.8.4.4
+	dns-nameservers 193.191.187.62
 

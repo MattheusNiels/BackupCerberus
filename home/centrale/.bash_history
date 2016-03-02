@@ -1661,3 +1661,187 @@ sudo service asterisk reload
 sudo nano res_ldap.conf
 sudo service asterisk reload
 sudo nano res_ldap.conf
+sudo asterisk -r
+cd /etc/asterisk
+sudo nano sip.conf
+sudo asterisk -r
+sudo asterisk -rvvv
+sudo asterisk -r
+exit
+cd /var/log/
+tail -f syslog
+sudo nano /home/centrale/backup_script.py
+sudo python  /home/centrale/backup_script.py
+sudo cron -e
+sudo cron --e
+man cron
+crontab -e
+sudo crontab -e
+sudo nano /home/centrale/backup_script.py
+sudo service asterisk reload
+sudo service asterisk restart
+sudo service asterisk stop
+sudo service asterisk start
+cd /etc/asterisk/
+nano res_ldap.conf
+sudo nano res_ldap.conf
+cd /etc/network/
+ls
+nano interfaces
+sudo nano interfaces
+cd ~
+sudo wget http://www.voip-info.org/storage/users/992/22992/images/2069/asterisk.schema
+ls
+cd /etc/asterisk/
+ls
+sudo nano res_ldap.conf.failed 
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+cd  /etc/asterisk/
+l s
+ls 
+cp res_ldap.conf.backup res_ldap.conf
+cp res_ldap.conf res_ldap.conf.failed
+sudo cp res_ldap.conf res_ldap.conf.failed
+sudo cp res_ldap.conf.backup res_ldap.conf
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+clear
+sudo asterisk -r
+sudo nano sip.conf
+cd  /etc/asterisk/
+sudo nano sip.conf
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo servic
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo nano res_ldap.conf
+ldapsearch -w -h hetverbodenbos.vlan77.be -b "cn=Niels Mattheus,cn=Users,dc=hetverbodenbos,dc=vlan77,dc=be"
+ldapsearch -w hetverbodenbos.vlan77.be -b "cn=Niels Mattheus,cn=Users,dc=hetverbodenbos,dc=vlan77,dc=be"
+sudo ldapadd -x -D cn=administrator,cn=users,dc=hetverbodenbos,dc=vlan77,dc=be -w ScheurbekAP2016 -H ldap://hetverbodenbos.vlan77.be/
+sudo ldapadd -x -D cn=adNiels Mattheus,cn=users,dc=hetverbodenbos,dc=vlan77,dc=be -w ScheurbekAP2016 -H ldap://hetverbodenbos.vlan77.be/
+sudo ldapsearch -x -D cn=adNiels Mattheus,cn=users,dc=hetverbodenbos,dc=vlan77,dc=be -w ScheurbekAP2016 -H ldap://hetverbodenbos.vlan77.be/
+sudo ldapsearch -x -D cn=adNiels Mattheus,cn=users,dc=hetverbodenbos,dc=vlan77,dc=be  -H ldap://hetverbodenbos.vlan77.be/
+sudo ldapsearch -x -D cn=Niels Mattheus,cn=users,dc=hetverbodenbos,dc=vlan77,dc=be  -H ldap://hetverbodenbos.vlan77.be/
+sudo ldapsearch -x -D cn=NielsMattheus,cn=users,dc=hetverbodenbos,dc=vlan77,dc=be  -H ldap://hetverbodenbos.vlan77.be/
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano extconfig.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano extconfig.conf
+sudo nano modules.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+
+
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo nano res_ldap.conf
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano sip.conf
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo service asterisk retart
+sudo service asterisk restart 
+cd /etc/asterisk/
+ls
+sudo nano rtp.conf 
+sudo nano res_ldap.conf 
+sudo service asterisk reload
+sudo nano res_ldap.conf 
+sudo iptables -A INPUT -s 212.83.146.50 -j DROP
+nano sip.conf
+sudo nano sip.conf
+clear
+sudo asterisk -r
+sudo reboot
+sudo apt-get update && upgrade -y
+sudo apt-get upgrade -y

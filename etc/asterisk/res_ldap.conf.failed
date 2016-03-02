@@ -29,15 +29,15 @@
 ; *********************************************************************************
 
 [_general]
-
+;
 ; Specify one of either host and port OR url.  URL is preferred, as you can
 ; use more options.
 host=193.191.187.39                    ; LDAP host
 port=389
 url=ldap://hetverbodenbos.vlan77.be:389
 protocol=3                          ; Version of the LDAP protocol to use; default is 3.
-basedn=dc=hetverbodenbos,dc=vlan77,dc=be            ; Base DN
-user=cn=Administrator,cn=Users,dc=hetverbodenbos,dc=vlan77,dc=be  ; Bind DN
+basedn=dc=hetverbodenbos,dc=vlan77,dc=be           ; Base DN
+user=cn=Administrator,cn=Users,dc=hetverbodenbos,dc=vlan77,dc=be ; Bind DN
 pass=ScheurbekAP2016                     ; Bind password
 
 ; Configuration Table
@@ -96,8 +96,7 @@ fullcontact = gecos
 host = AstAccountHost
 insecure = AstAccountInsecure
 mailbox = AstAccountMailbox
-md5secret = userPassword					;AstAccountRealmedPassword           
-						; Must be an MD5 hash. Field value can start with
+md5secret = AstAccountRealmedPassword           ; Must be an MD5 hash. Field value can start with
                                                 ; {md5} but it is not required.
                                                 ; Generate the password via the md5sum command, e.g.
                                                 ; echo "my_password" | md5sum
@@ -197,31 +196,4 @@ regcontext = AstAccountRegistrationContext
 regexten = AstAccountRegistrationExten
 CanCallForward = AstAccountCanCallForward
 additionalFilter=(objectClass=AstAccount)
-
-[sipusers]
-name = cn
-number = uidNumber
-callerid = AstAccountCallerID
-context = AstAccountContext
-secret = userPassword
-nat = AstAccountNAT
-dtmfmode = AstAccountDTMFMode
-qualify = AstAccountQualify
-type = AstAccountType
-host = AstAccountHost
-additionalFilter=(objectClass=person)
-
-
-[sippeers]
-name = cn
-number = uidNumber
-callerid = AstAccountCallerID
-context = AstAccountContext
-secret = userPassword
-nat = AstAccountNAT
-dtmfmode = AstAccountDTMFMode
-qualify = AstAccountQualify
-type = AstAccountType
-host = AstAccountHost
-additionalFilter=(objectClass=person)
 

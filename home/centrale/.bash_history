@@ -1,64 +1,3 @@
-cd /etc/ssh
-ls
-cp sshd_config sshd_config_default
-sudo cp sshd_config sshd_config_default
-nano sshd_config
-sudo nano sshd_config
-cd /etc/network
-cp interfaces interfaces_default
-sudo cp interfaces interfaces_default
-sudo nano interfaces
-sudo reboot
-apt-get update && apt-get upgrade -y && reboot
-sudo -s
-apt-get install build-essential wget libssl-dev libncurses5-dev libnewt-dev libxml2-dev linux-headers-$(uname -r) libsqlite3-dev uuid-dev
-reboot
-cd /usr/src
-sudo -s
-wget http://downloads.asterisk.org/pub/telephony/dahdi-linux-complete/dahdi-linux-complete-2.10.2+2.10.2.tar.gz
-wget http://downloads.asterisk.org/pub/telephony/libpri/libpri-1.4-current.tar.gz
-wget http://downloads.asterisk.org/pub/telephony/asterisk/asterisk-13-current.tar.gz
-ls
-tar -zxvf dahdi-linux-complete-2.10.2+2.10.2.tar.gz 
-tar -zxvf libpri-1.4-current.tar.gz 
-tar -zxvf asterisk-13-current.tar.gz 
-cd dahdi-linux-complete-2.10.2+2.10.2/
-make && make install && make config
-cd ../libpri-1.4.15/
-make && make install
-cd ../asterisk-13.7.2/
-ls
-./contrib/scripts/install_prereq install
-./configure
-make
-./configure && make && make menuselect && make install && make install && make config && make samples
-dahdi start
-/etc/init.d/asterisk start
-/etc/init.d/asterisk stop
-/etc/init.d/dahdi start
-/etc/init.d/asterisk start
-asterisk -rvvv
-cd /etc/asterisk/
-cp modules.conf modules.conf.sample
-cp extensions.conf extensions.conf.sample
-cp sip.conf sip.conf.sample
-cp iax.conf iax.conf.sample
-ls 
-nano modules.conf
-nano extensions.conf
-nano sip.conf
-nano iax.conf
-asterix -r
-asterisk -r
-cd /usr/src
-ls 
-clear
-ls
-ls 
-cd /var/log/
-ls
-cd asterisk/
-ls
 nano queue_log 
 tail -f queue_log 
 ls 
@@ -1845,3 +1784,217 @@ sudo asterisk -r
 sudo reboot
 sudo apt-get update && upgrade -y
 sudo apt-get upgrade -y
+clear
+sudo asterisk -r
+
+sudo asterisk -r
+clear
+cd /etc/asterisk/
+sudo nano extension.conf
+sudo nano extensions.conf
+sudo nano modules.conf
+sudo service asterisk restart
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo nano modules.conf
+sudo service asterisk reload
+sudo python /home/centrale/backup_script.py
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo service asterisk restart
+sudo service asterisk stop
+sudo service asterisk start
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk stop
+sudo service asterisk start
+sudo service asterisk stop
+sudo service asterisk start
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo service asterisk restart
+sudo nano sip.conf
+sudo nano extensions.conf
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk start
+sudo nano sip.conf
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo service asterisk start
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo service asterisk start
+sudo nano extensions.conf
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+
+sudo nano extensions.conf
+sudo nano res_ldap.conf
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+cd /etc/asterisk/
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano res_ldap.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano extension.conf
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano sip.conf
+sudo nano extensions.conf
+sudo nano sip.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo nano extensions.conf
+sudo service asterisk reload
+sudo asterisk -r
+cd /etc/network/interfaces.
+cd /etc/network/
+sudo nano interfaces
+cd /etc/asterisk
+nano modules.conf
+nano res_ldap.conf
+nano extconfig.conf
+nano sip.conf
+cd /etc/network/
+nano interfaces
+ping 193.191.187.46
+exit
